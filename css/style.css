@@ -33,16 +33,17 @@ header {
     margin: 20px auto;
     background-color: white;
     border-radius: 5px;
+
 }
 
 .buttons {
     height: 50px;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid lightgray; 
     padding-top: 10px;
-    padding-left: 50px;
+    padding-left: 50px; 
 }
 
-#buttontask {
+.buttontask {
     padding: 5px;
     margin-right: 5px;
     border-style: none;
@@ -57,4 +58,19 @@ header {
     border-radius: 5px;
     color: lightgrey;
     background-color: white;
+}
+
+#taskcontainer {
+    padding-top: 10px;
+    padding-left: 50px; 
+}
+
+.checkstyle {
+    color: green;
+    border: 1px solid green;   
+    border-radius: 50%; 
+}
+
+.section-task {
+    margin-bottom: 20px;
 }
