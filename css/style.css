@@ -46,14 +46,28 @@ header {
     padding-left: 50px; 
 }
 
-
-
-.buttontask {
+.button-style {
     padding: 5px;
     margin-right: 5px;
     border-style: none;
     border-radius: 5px;
     color: white;
+}
+
+.button-violet {
+    background-color: rgb(187, 104, 255); 
+}
+
+.button-green {
+    background-color: rgb(72, 204, 149);
+}
+
+.button-orange {
+    background-color: rgb(211, 142, 52);
+}
+
+
+.buttontask {
     background-color: rgb(2, 196, 255);
 }
 
@@ -99,32 +113,5 @@ header {
 
 .section-task {
     margin-bottom: 20px;
-}
-
-.button-violet {
-    padding: 5px;
-    margin-right: 5px;
-    border-style: none;
-    border-radius: 5px;
-    color: white;
-    background-color: rgb(187, 104, 255); 
-}
-
-.button-green {
-    padding: 5px;
-    margin-right: 5px;
-    border-style: none;
-    border-radius: 5px;
-    color: white;
-    background-color: rgb(72, 204, 149);
-}
-
-.button-orange {
-    padding: 5px;
-    margin-right: 5px;
-    border-style: none;
-    border-radius: 5px;
-    color: white;
-    background-color: rgb(211, 142, 52);
 }
 
