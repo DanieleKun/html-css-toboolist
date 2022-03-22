@@ -17,14 +17,17 @@ header {
 
 
 #logo {
-    line-height: 700px;
+    height: 55px;
+    width: auto;
+    line-height: 55px;
     vertical-align: middle;
-    margin: 5px;
-
+    margin: 10px;
+    
 }
 
 .title {
     font-size: 40px;
+    
 }
 
 #container {
@@ -42,6 +45,7 @@ header {
     padding-top: 10px;
     padding-left: 50px; 
 }
+
 
 
 .buttontask {
@@ -69,15 +73,25 @@ header {
 .new-task {
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 10px;
+    
 }
 
 .checkstyle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
     color: green;
     border: 1px solid green;   
     border-radius: 50%; 
 }
 
 .falsestyle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
     color: rgb(255, 0, 0);
     border: 1px solid rgb(255, 0, 0);   
     border-radius: 50%; 
